@@ -1,18 +1,216 @@
 Script started on 2026-10-10 21:17:23+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="106" LINES="39"]
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo apt update[27msudo apt update
-[?2004l[33m0% [Working][0m            Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu noble InRelease
-[33m0% [Connected to packages.cloud.google.com (192.179.17.101)] [Connecting to security.ubuntu.com (185.125.[0m                                                                                                         Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates InRelease
-                                                                                                         Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-backports InRelease
-[33m0% [Connected to packages.cloud.google.com (192.179.17.101)] [Connecting to security.ubuntu.com (185.125.[0m                                                                                                         Hit:4 https://packages.cloud.google.com/apt google-cloud-ops-agent-noble-2 InRelease
-[33m                                                                                                         0% [Connecting to security.ubuntu.com (185.125.190.82)][0m                                                       Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
-[33m                                                       0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 27%Reading package lists... 41%Reading package lists... 41%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 61%Reading package lists... 62%Reading package lists... 62%Reading package lists... 64%Reading package lists... 64%Reading package lists... 69%Reading package lists... 69%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 84%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+[?2004l
+[33m
+0% [Working][0m
+            
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu noble InRelease
+[33m
+0% [Connected to packages.cloud.google.com (192.179.17.101)] [Connecting to security.ubuntu.com (185.125.[0m
+                                                                                                         
+Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates InRelease
+
+                                                                                                         
+Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m
+0% [Connected to packages.cloud.google.com (192.179.17.101)] [Connecting to security.ubuntu.com (185.125.[0m
+                                                                                                         
+Hit:4 https://packages.cloud.google.com/apt google-cloud-ops-agent-noble-2 InRelease
+[33m
+                                                                                                         
+0% [Connecting to security.ubuntu.com (185.125.190.82)][0m
+                                                       
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m
+                                                       
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+20% [Working][0m
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 27%
+
+Reading package lists... 41%
+
+Reading package lists... 41%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 58%
+
+Reading package lists... 58%
+
+Reading package lists... 58%
+
+Reading package lists... 58%
+
+Reading package lists... 61%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 64%
+
+Reading package lists... 64%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 71%
+
+Reading package lists... 71%
+
+Reading package lists... 76%
+
+Reading package lists... 76%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
 All packages are up to date.
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo apt install imagemagick unzip[27msudo apt install imagemagick unzip
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
 unzip is already the newest version (6.0-28ubuntu4.1).
 The following additional packages will be installed:
   fontconfig hicolor-icon-theme imagemagick-6.q16 libcairo2 libdatrie1 libdjvulibre-text libdjvulibre21
@@ -34,39 +232,192 @@ The following NEW packages will be installed:
 Need to get 6681 kB of archives.
 After this operation, 23.9 MB of additional disk space will be used.
 Do you want to continue? [Y/n] y
-[33m0% [Working][0m            Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libfribidi0 amd64 1.0.13-3build1 [26.1 kB]
-[33m0% [1 libfribidi0 26.1 kB/26.1 kB 100%][0m[33m                                       1% [Working][0m            Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig amd64 2.15.0-1.1ubuntu2 [180 kB]
-[33m1% [2 fontconfig 26.1 kB/180 kB 15%][0m[33m                                    4% [Waiting for headers][0m                        Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 hicolor-icon-theme all 0.17-2 [9976 B]
-[33m5% [Waiting for headers][0m                        Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick-6.q16 amd64 8:6.9.12.98+dfsg1-5.2build2 [254 kB]
-[33m5% [4 imagemagick-6.q16 12.1 kB/254 kB 5%][0m[33m                                          8% [Waiting for headers][0m                        Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick amd64 8:6.9.12.98+dfsg1-5.2build2 [14.2 kB]
-[33m9% [5 imagemagick 12.1 kB/14.2 kB 85%][0m[33m                                      9% [Waiting for headers][0m                        Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpixman-1-0 amd64 0.42.2-1build1 [279 kB]
-[33m10% [6 libpixman-1-0 13.5 kB/279 kB 5%][0m                                       Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render0 amd64 1.15-1ubuntu2 [16.2 kB]
-[33m                                       14% [Waiting for headers][0m                         Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shm0 amd64 1.15-1ubuntu2 [5756 B]
-[33m14% [8 libxcb-shm0 0 B/5756 B 0%][0m[33m                                 15% [Working][0m             Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxrender1 amd64 1:0.9.10-1.1build1 [19.0 kB]
-[33m15% [9 libxrender1 0 B/19.0 kB 0%][0m[33m                                  16% [Waiting for headers][0m                         Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libcairo2 amd64 1.18.0-3build1 [566 kB]
-[33m16% [10 libcairo2 13.5 kB/566 kB 2%][0m                                    Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libdatrie1 amd64 0.2.13-3build1 [19.0 kB]
-                                    Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdjvulibre-text all 3.5.28-2ubuntu0.24.04.2 [51.1 kB]
-[33m25% [12 libdjvulibre-text 44.2 kB/51.1 kB 87%][0m[33m                                              26% [Working][0m             Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdjvulibre21 amd64 3.5.28-2ubuntu0.24.04.2 [638 kB]
-[33m26% [13 libdjvulibre21 0 B/638 kB 0%][0m[33m                                     34% [Working][0m             Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgraphite2-3 amd64 1.3.14-2ubuntu0.24.04.1 [73.4 kB]
-[33m35% [14 libgraphite2-3 73.4 kB/73.4 kB 100%][0m[33m                                            36% [Working][0m             Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libharfbuzz0b amd64 8.3.0-2build2 [469 kB]
-[33m36% [15 libharfbuzz0b 8192 B/469 kB 2%][0m[33m                                       42% [Waiting for headers][0m                         Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libimath-3-1-29t64 amd64 3.1.9-3.1ubuntu2 [72.2 kB]
-[33m42% [16 libimath-3-1-29t64 23.3 kB/72.2 kB 32%][0m[33m                                               44% [Waiting for headers][0m                         Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr0t64 amd64 1.2~git20170615.f752187-5.1ubuntu2 [181 kB]
-[33m44% [17 libjxr0t64 7829 B/181 kB 4%][0m[33m                                    47% [Waiting for headers][0m                         Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr-tools amd64 1.2~git20170615.f752187-5.1ubuntu2 [15.8 kB]
-[33m47% [18 libjxr-tools 7832 B/15.8 kB 50%][0m[33m                                        47% [Working][0m             Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libopenexr-3-1-30 amd64 3.1.5-5.1build3 [1004 kB]
-[33m48% [19 libopenexr-3-1-30 12.1 kB/1004 kB 1%][0m[33m                                             60% [Waiting for headers][0m                         Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libthai-data all 0.1.29-2build1 [158 kB]
-[33m60% [20 libthai-data 21.9 kB/158 kB 14%][0m                                        Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libthai0 amd64 0.1.29-2build1 [18.9 kB]
-[33m                                        63% [21 libthai0 15.3 kB/18.9 kB 81%][0m[33m                                     64% [Waiting for headers][0m                         Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpango-1.0-0 amd64 1.52.1+ds-1build1 [231 kB]
-[33m64% [22 libpango-1.0-0 7043 B/231 kB 3%][0m[33m                                        67% [Waiting for headers][0m                         Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpangoft2-1.0-0 amd64 1.52.1+ds-1build1 [42.5 kB]
-[33m67% [23 libpangoft2-1.0-0 6734 B/42.5 kB 16%][0m[33m                                             68% [Waiting for headers][0m                         Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpangocairo-1.0-0 amd64 1.52.1+ds-1build1 [28.8 kB]
-[33m69% [24 libpangocairo-1.0-0 8642 B/28.8 kB 30%][0m[33m                                               70% [Waiting for headers][0m                         Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libwmflite-0.2-7 amd64 0.2.13-1.1build3 [68.6 kB]
-[33m70% [25 libwmflite-0.2-7 7358 B/68.6 kB 11%][0m[33m                                            71% [Waiting for headers][0m                         Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libmagickcore-6.q16-7-extra amd64 8:6.9.12.98+dfsg1-5.2build2 [70.1 kB]
-[33m71% [26 libmagickcore-6.q16-7-extra 5754 B/70.1 kB 8%][0m[33m                                                      73% [Waiting for headers][0m                         Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libnetpbm11t64 amd64 2:11.05.02-1.1build1 [114 kB]
-[33m73% [27 libnetpbm11t64 8302 B/114 kB 7%][0m[33m                                        75% [Waiting for headers][0m                         Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 netpbm amd64 2:11.05.02-1.1build1 [2054 kB]
-[33m75% [28 netpbm 5247 B/2054 kB 0%][0m[33m                                 100% [Working][0m              Fetched 6681 kB in 1s (10.4 MB/s)
+[33m
+0% [Working][0m
+            
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libfribidi0 amd64 1.0.13-3build1 [26.1 kB]
+[33m
+0% [1 libfribidi0 26.1 kB/26.1 kB 100%][0m[33m
+                                       
+1% [Working][0m
+            
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig amd64 2.15.0-1.1ubuntu2 [180 kB]
+[33m
+1% [2 fontconfig 26.1 kB/180 kB 15%][0m[33m
+                                    
+4% [Waiting for headers][0m
+                        
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 hicolor-icon-theme all 0.17-2 [9976 B]
+[33m
+5% [Waiting for headers][0m
+                        
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick-6.q16 amd64 8:6.9.12.98+dfsg1-5.2build2 [254 kB]
+[33m
+5% [4 imagemagick-6.q16 12.1 kB/254 kB 5%][0m[33m
+                                          
+8% [Waiting for headers][0m
+                        
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick amd64 8:6.9.12.98+dfsg1-5.2build2 [14.2 kB]
+[33m
+9% [5 imagemagick 12.1 kB/14.2 kB 85%][0m[33m
+                                      
+9% [Waiting for headers][0m
+                        
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpixman-1-0 amd64 0.42.2-1build1 [279 kB]
+[33m
+10% [6 libpixman-1-0 13.5 kB/279 kB 5%][0m
+                                       
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render0 amd64 1.15-1ubuntu2 [16.2 kB]
+[33m
+                                       
+14% [Waiting for headers][0m
+                         
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shm0 amd64 1.15-1ubuntu2 [5756 B]
+[33m
+14% [8 libxcb-shm0 0 B/5756 B 0%][0m[33m
+                                 
+15% [Working][0m
+             
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libxrender1 amd64 1:0.9.10-1.1build1 [19.0 kB]
+[33m
+15% [9 libxrender1 0 B/19.0 kB 0%][0m[33m
+                                  
+16% [Waiting for headers][0m
+                         
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libcairo2 amd64 1.18.0-3build1 [566 kB]
+[33m
+16% [10 libcairo2 13.5 kB/566 kB 2%][0m
+                                    
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libdatrie1 amd64 0.2.13-3build1 [19.0 kB]
+
+                                    
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdjvulibre-text all 3.5.28-2ubuntu0.24.04.2 [51.1 kB]
+[33m
+25% [12 libdjvulibre-text 44.2 kB/51.1 kB 87%][0m[33m
+                                              
+26% [Working][0m
+             
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdjvulibre21 amd64 3.5.28-2ubuntu0.24.04.2 [638 kB]
+[33m
+26% [13 libdjvulibre21 0 B/638 kB 0%][0m[33m
+                                     
+34% [Working][0m
+             
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgraphite2-3 amd64 1.3.14-2ubuntu0.24.04.1 [73.4 kB]
+[33m
+35% [14 libgraphite2-3 73.4 kB/73.4 kB 100%][0m[33m
+                                            
+36% [Working][0m
+             
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libharfbuzz0b amd64 8.3.0-2build2 [469 kB]
+[33m
+36% [15 libharfbuzz0b 8192 B/469 kB 2%][0m[33m
+                                       
+42% [Waiting for headers][0m
+                         
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libimath-3-1-29t64 amd64 3.1.9-3.1ubuntu2 [72.2 kB]
+[33m
+42% [16 libimath-3-1-29t64 23.3 kB/72.2 kB 32%][0m[33m
+                                               
+44% [Waiting for headers][0m
+                         
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr0t64 amd64 1.2~git20170615.f752187-5.1ubuntu2 [181 kB]
+[33m
+44% [17 libjxr0t64 7829 B/181 kB 4%][0m[33m
+                                    
+47% [Waiting for headers][0m
+                         
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr-tools amd64 1.2~git20170615.f752187-5.1ubuntu2 [15.8 kB]
+[33m
+47% [18 libjxr-tools 7832 B/15.8 kB 50%][0m[33m
+                                        
+47% [Working][0m
+             
+Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libopenexr-3-1-30 amd64 3.1.5-5.1build3 [1004 kB]
+[33m
+48% [19 libopenexr-3-1-30 12.1 kB/1004 kB 1%][0m[33m
+                                             
+60% [Waiting for headers][0m
+                         
+Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libthai-data all 0.1.29-2build1 [158 kB]
+[33m
+60% [20 libthai-data 21.9 kB/158 kB 14%][0m
+                                        
+Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libthai0 amd64 0.1.29-2build1 [18.9 kB]
+[33m
+                                        
+63% [21 libthai0 15.3 kB/18.9 kB 81%][0m[33m
+                                     
+64% [Waiting for headers][0m
+                         
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpango-1.0-0 amd64 1.52.1+ds-1build1 [231 kB]
+[33m
+64% [22 libpango-1.0-0 7043 B/231 kB 3%][0m[33m
+                                        
+67% [Waiting for headers][0m
+                         
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpangoft2-1.0-0 amd64 1.52.1+ds-1build1 [42.5 kB]
+[33m
+67% [23 libpangoft2-1.0-0 6734 B/42.5 kB 16%][0m[33m
+                                             
+68% [Waiting for headers][0m
+                         
+Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libpangocairo-1.0-0 amd64 1.52.1+ds-1build1 [28.8 kB]
+[33m
+69% [24 libpangocairo-1.0-0 8642 B/28.8 kB 30%][0m[33m
+                                               
+70% [Waiting for headers][0m
+                         
+Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/main amd64 libwmflite-0.2-7 amd64 0.2.13-1.1build3 [68.6 kB]
+[33m
+70% [25 libwmflite-0.2-7 7358 B/68.6 kB 11%][0m[33m
+                                            
+71% [Waiting for headers][0m
+                         
+Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libmagickcore-6.q16-7-extra amd64 8:6.9.12.98+dfsg1-5.2build2 [70.1 kB]
+[33m
+71% [26 libmagickcore-6.q16-7-extra 5754 B/70.1 kB 8%][0m[33m
+                                                      
+73% [Waiting for headers][0m
+                         
+Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 libnetpbm11t64 amd64 2:11.05.02-1.1build1 [114 kB]
+[33m
+73% [27 libnetpbm11t64 8302 B/114 kB 7%][0m[33m
+                                        
+75% [Waiting for headers][0m
+                         
+Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu noble/universe amd64 netpbm amd64 2:11.05.02-1.1build1 [2054 kB]
+[33m
+75% [28 netpbm 5247 B/2054 kB 0%][0m[33m
+                                 
+100% [Working][0m
+              
+Fetched 6681 kB in 1s (10.4 MB/s)
 debconf: delaying package configuration, since apt-utils is not installed
 
 7[0;38r8[1ASelecting previously unselected package libfribidi0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 109712 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 109712 files and directories currently installed.)
 Preparing to unpack .../00-libfribidi0_1.0.13-3build1_amd64.deb ...
 7[39;0f[42m[30mProgress: [  0%][49m[39m [....................................................................................] 8Unpacking libfribidi0:amd64 (1.0.13-3build1) ...
 7[39;0f[42m[30mProgress: [  2%][49m[39m [#...................................................................................] 8Selecting previously unselected package fontconfig.
@@ -226,12 +577,16 @@ update-alternatives: warning: skip creation of /usr/share/man/man1/mogrify-im6.1
 7[39;0f[42m[30mProgress: [ 98%][49m[39m [##################################################################################..] 87[39;0f[42m[30mProgress: [ 99%][49m[39m [###################################################################################.] 8Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
 
 7[0;39r8[1A[J[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo a2enmod rewrite[27msudo a2enmod rewrite
-[?2004lEnabling module rewrite.
+[?2004l
+Enabling module rewrite.
 To activate the new configuration, you need to run:
   systemctl restart apache2
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo systemctl restart apache2[27msudo systemctl restart apache2
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo systemctl status apache2[27msudo systemctl status apache2
-[?2004l[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo systemctl status apache2[27msudo systemctl status apache2
+[?2004l
+[?1h=
+[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
      Loaded: loaded (]8;;file://fall2026-7301/usr/lib/systemd/system/apache2.service/usr/lib/systemd/system/apache2.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
      Active: [0;1;32mactive (running)[0m since Sat 2026-10-10 21:18:50 UTC; 6s ago[m
        Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;[m
@@ -250,17 +605,24 @@ To activate the new configuration, you need to run:
 [m
 Oct 10 21:18:50 fall2026-7301 systemd[1]: Starting apache2.service - The Apache HTTP Server...[m
 Oct 10 21:18:50 fall2026-7301 systemd[1]: Started apache2.service - The Apache HTTP Server.[m
-[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ php -v
-[?2004lPHP 8.3.6 (cli) (built: Sep  2 2026 12:56:02) (NTS)
+
+[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ php -v
+[?2004l
+PHP 8.3.6 (cli) (built: Sep  2 2026 12:56:02) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.3.6, Copyright (c) Zend Technologies
     with Zend OPcache v8.3.6, Copyright (c), by Zend Technologies
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ php -m |gre[K[K [K[K grep -Ei 'mysqli|exif;
-[?2004l[?2004h> ;
-[?2004l[?2004h> EI[KXIT;
-[?2004l[?2004h> \q
-[?2004l[?2004h> '
-[?2004l[PHP Modules]
+[?2004l
+[?2004h> ;
+[?2004l
+[?2004h> EI[KXIT;
+[?2004l
+[?2004h> \q
+[?2004l
+[?2004h> '
+[?2004l
+[PHP Modules]
 calendar
 Core
 ctype
@@ -315,9 +677,12 @@ zlib
 Zend OPcache
 
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ mysql --version
-[?2004lmysql  Ver 8.0.46-0ubuntu0.24.04.4 for Linux on x86_64 ((Ubuntu))
+[?2004l
+mysql  Ver 8.0.46-0ubuntu0.24.04.4 for Linux on x86_64 ((Ubuntu))
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [7msudo systemctl status apache2[27msudo systemctl status apache2
-[?2004l[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+[?2004l
+[?1h=
+[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
      Loaded: loaded (]8;;file://fall2026-7301/usr/lib/systemd/system/apache2.service/usr/lib/systemd/system/apache2.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
      Active: [0;1;32mactive (running)[0m since Sat 2026-10-10 21:18:50 UTC; 2min 6s ago[m
        Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;[m
@@ -337,10 +702,17 @@ Zend OPcache
 [m
 Oct 10 21:18:50 fall2026-7301 systemd[1]: Starting apache2.service - The Apache HTTP Server...[m
 Oct 10 21:18:50 fall2026-7301 systemd[1]: Started apache2.service - The Apache HTTP Server.[m
-[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ my s[K[Ksql --version
-[?2004lmysql  Ver 8.0.46-0ubuntu0.24.04.4 for Linux on x86_64 ((Ubuntu))
-[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [K]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ [K]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ sudo mysql
-[?2004lWelcome to the MySQL monitor.  Commands end with ; or \g.
+
+[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ my s[K[Ksql --version
+[?2004l
+mysql  Ver 8.0.46-0ubuntu0.24.04.4 for Linux on x86_64 ((Ubuntu))
+[?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ 
+[K
+]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ 
+[K
+]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ sudo mysql
+[?2004l
+Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 227
 Server version: 8.0.46-0ubuntu0.24.04.4 (Ubuntu)
 
@@ -352,7 +724,60 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-mysql> CREATE DATABASE omekadb DEFUAL[37G[K[36G[K[35G[KAULT CHARACTER SET utf8[57G[K[56G[K[55G[K[54G[K[53G[52G[K[51G[K[50G[K[49G[48G[K[47G[K[46G[K[45G[K[44G[K[43G[K[42G[K[41G[K[40G[K[39G[38G[K[37G[K[36G[K[35G[K[34G[K[33G[K[32G[K[31G[30G[K[29G[K[28G[K[27G[K[26G[K[25G[K[24G[K[23G[22G[K[21G[K[20G[K[19G[K[18G[K[17G[K[16G[K[15G[K[14G[13G[K[12G[K[11G[K[10G[K[9G[K[8G[KCREATE DATABASE omekadb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+mysql> CREATE DATABASE omekadb DEFUAL
+[37G[K
+[36G[K
+[35G[KAULT CHARACTER SET utf8
+[57G[K
+[56G[K
+[55G[K
+[54G[K
+[53G
+[52G[K
+[51G[K
+[50G[K
+[49G
+[48G[K
+[47G[K
+[46G[K
+[45G[K
+[44G[K
+[43G[K
+[42G[K
+[41G[K
+[40G[K
+[39G
+[38G[K
+[37G[K
+[36G[K
+[35G[K
+[34G[K
+[33G[K
+[32G[K
+[31G
+[30G[K
+[29G[K
+[28G[K
+[27G[K
+[26G[K
+[25G[K
+[24G[K
+[23G
+[22G[K
+[21G[K
+[20G[K
+[19G[K
+[18G[K
+[17G[K
+[16G[K
+[15G[K
+[14G
+[13G[K
+[12G[K
+[11G[K
+[10G[K
+[9G[K
+[8G[KCREATE DATABASE omekadb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 Query OK, 1 row affected, 2 warnings (0.05 sec)
 
 mysql> CREATE USER 'omekauser'@'localhost' IDENTIFIED BY 'ChooseYourOwnStrongPassword123!';
@@ -379,15 +804,38 @@ mysql> SHOW DATABASES;
 mysql> EXIT;
 Bye
 [?2004h]0;mcfarlanek20@fall2026-7301: ~/7301Fall2026Documentation[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m~/7301Fall2026Documentation[00m$ cd /var/www/html
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo apt install wget[27msudo apt install wget
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo apt install wget[27msudo apt install wget
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
 wget is already the newest version (1.21.4-1ubuntu4.5).
 wget set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo wget https://github.com/omeka/Omeka/releases/download/v3[27m[7m.[27m[7m2.2/omeka-3.2.2.zip[27m[A]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ sudo wget https://github.com/omeka/Omeka/releases/download/v3.2.2/omeka-3.2.2.zip
-[?2004l--2026-10-10 21:24:30--  https://github.com/omeka/Omeka/releases/download/v3.2.2/omeka-3.2.2.zip
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo wget https://github.com/omeka/Omeka/releases/download/v3[27m[7m.[27m[7m2.2/omeka-3.2.2.zip[27m[A
+]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ sudo wget https://github.com/omeka/Omeka/releases/download/v3.2.2/omeka-3.2.2.zip
+[?2004l
+--2026-10-10 21:24:30--  https://github.com/omeka/Omeka/releases/download/v3.2.2/omeka-3.2.2.zip
 Resolving github.com (github.com)... 140.82.113.3
 Connecting to github.com (github.com)|140.82.113.3|:443... connected.
 HTTP request sent, awaiting response... 302 Found
@@ -399,12 +847,15 @@ HTTP request sent, awaiting response... 200 OK
 Length: 14710178 (14M) [application/octet-stream]
 Saving to: ‘omeka-3.2.2.zip’
 
-omeka-3.2.2.zip             0%[                                     ]       0  --.-KB/s               omeka-3.2.2.zip           100%[====================================>]  14.03M  --.-KB/s    in 0.1s    
+
+omeka-3.2.2.zip             0%[                                     ]       0  --.-KB/s               
+omeka-3.2.2.zip           100%[====================================>]  14.03M  --.-KB/s    in 0.1s    
 
 2026-10-10 21:24:30 (115 MB/s) - ‘omeka-3.2.2.zip’ saved [14710178/14710178]
 
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo unzip omeka-3.2.2.zip[27msudo unzip omeka-3.2.2.zip
-[?2004lArchive:  omeka-3.2.2.zip
+[?2004l
+Archive:  omeka-3.2.2.zip
    creating: omeka-3.2.2/
    creating: omeka-3.2.2/admin/
    creating: omeka-3.2.2/admin/themes/
@@ -5815,26 +6266,68 @@ Saving to: ‘omeka-3.2.2.zip’
   inflating: omeka-3.2.2/themes/seasons/theme.ini  
   inflating: omeka-3.2.2/themes/seasons/theme.jpg  
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo mv omeka-3.2.2 omeka[27msudo mv omeka-3.2.2 omeka
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka[27mls -ld /var/www/html/omeka
-[?2004ldrwxr-sr-x 8 root www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka[0m
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka[27mls -ld /var/www/html/omeka
+[?2004l
+drwxr-sr-x 8 root www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka[0m
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls /var/www/html/omeka[27mls /var/www/html/omeka
-[?2004lREADME.md  [0m[01;34mapplication[0m    build.xml  [01;34mfiles[0m      [01;34minstall[0m      [01;34mplugins[0m
+[?2004l
+README.md  [0m[01;34mapplication[0m    build.xml  [01;34mfiles[0m      [01;34minstall[0m      [01;34mplugins[0m
 [01;34madmin[0m      bootstrap.php  db.ini     index.php  license.txt  [01;34mthemes[0m
-[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo nano /var/www/html/omeka/application/config/db.ini[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /var/www/html/omeka/application/config/db.ini
-[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;46H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                 /var/www/html/omeka/application/config/db.ini                           [1;102H(B[m[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mfind /var/www/html/omeka -name "db.ini"[27mfind /var/www/html/omeka -name "db.ini"
-[?2004l/var/www/html/omeka/db.ini
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo nano /var/www/html/omeka/application/config/db.ini[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /var/www/html/omeka/application/config/db.ini
+[?2004l
+[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;46H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                 /var/www/html/omeka/application/config/db.ini                           [1;102H(B[m
+[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo
+[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo
+[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mfind /var/www/html/omeka -name "db.ini"[27mfind /var/www/html/omeka -name "db.ini"
+[?2004l
+/var/www/html/omeka/db.ini
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo nano /var/www/html/omeka/db.ini[27msudo nano /var/www/html/omeka/db.ini
-[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;44H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /var/www/html/omeka/db.ini                                    [1;102H(B[m[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[3d; Database Configuration File ;[4d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[5d;[6d; Omeka requires MySQL 5 or newer.[7d;[8d; To configure your database, replace the X's with your specific[9d; settings. If you're unsure about your database information, ask[10d; your server administrator, or consult the documentation at[11d; <[94mhttp://omeka.org/codex/Database_Configuration_File[39m(B[m>.[13d(B[0;1m[32m[database][14d[39m(B[mhost     = "XXXXXXX"[15dusername = "XXXXXXX"[16dpassword = "XXXXXXX"[17ddbname   = "XXXXXXX"[18dprefix   = "omeka_"[19dcharset  = "utf8"[20d;port     = ""[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[37d[K[?12l[?25h[14dh[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[1;69H(B[0;7m*[102G(B[m[?12l[?25h[14;19H"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25hl"[?25l[?12l[?25ho"[?25l[?12l[?25hc"[?25l[?12l[?25ha"[?25l[?12l[?25hl"[?25l[?12l[?25hh"[?25l[?12l[?25ho"[?25l[?12l[?25hs"[?25l[?12l[?25ht"[?25l[?12l[?25h[15d[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25ho"[?25l[?12l[?25hm"[?25l[?12l[?25he"[?25l[?12l[?25hk"[?25l[?12l[?25ha"[?25l[?12l[?25hu"[?25l[?12l[?25hs"[?25l[?12l[?25he"[?25l[?12l[?25hr"[?25l[?12l[?25h[16d[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25hR"[?25l[?12l[?25he"[?25l[?12l[?25hd"[?25l[?12l[?25hB"[?25l[?12l[?25hi"[?25l[?12l[?25hg"[?25l[?12l[?25hB"[?25l[?12l[?25ho"[?25l[?12l[?25ha"[?25l[?12l[?25ht"[?25l[?12l[?25hS"[?25l[?12l[?25ht"[?25l[?12l[?25ha"[?25l[?12l[?25hr"[?25l[?12l[?25hl"[?25l[?12l[?25hi"[?25l[?12l[?25hg"[?25l[?12l[?25hh"[?25l[?12l[?25ht"[?25l[?12l[?25h5"[?25l[?12l[?25h3"[?25l[?12l[?25h$"[?25l[?12l[?25h[17;21H[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25ho"[?25l[?12l[?25hm"[?25l[?12l[?25he"[?25l[?12l[?25hk"[?25l[?12l[?25ha"[?25l[?12l[?25hd"[?25l[?12l[?25hb"[?25l[38;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[38;76H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[16X[39;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[39;76H(B[0;7m^T(B[m Browse[K[37d(B[0;7mFile Name to Write: /var/www/html/omeka/db.ini                                                         [37;47H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [102G(B[m[37;43H(B[0;7m[ Wrote 19 lines ](B[m[38;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[17;20H[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka[27mls -ld /var/www/html/omeka
-[?2004ldrwxr-sr-x 8 root www-data 4096 Oct 10 21:28 [0m[01;34m/var/www/html/omeka[0m
+[?2004l
+[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;44H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /var/www/html/omeka/db.ini                                    [1;102H(B[m
+[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo
+[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo
+[2d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[3d; Database Configuration File ;
+[4d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[5d;[6d; Omeka requires MySQL 5 or newer.
+[7d;[8d; To configure your database, replace the X's with your specific
+[9d; settings. If you're unsure about your database information, ask
+[10d; your server administrator, or consult the documentation at
+[11d; <[94mhttp://omeka.org/codex/Database_Configuration_File[39m(B[m>.
+[13d(B[0;1m[32m[database]
+[14d[39m(B[mhost     = "XXXXXXX"
+[15dusername = "XXXXXXX"
+[16dpassword = "XXXXXXX"
+[17ddbname   = "XXXXXXX"
+[18dprefix   = "omeka_"
+[19dcharset  = "utf8"
+[20d;port     = ""
+[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[37d[K[?12l[?25h[14dh[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[1;69H(B[0;7m*[102G(B[m[?12l[?25h[14;19H"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25hl"[?25l[?12l[?25ho"[?25l[?12l[?25hc"[?25l[?12l[?25ha"[?25l[?12l[?25hl"[?25l[?12l[?25hh"[?25l[?12l[?25ho"[?25l[?12l[?25hs"[?25l[?12l[?25ht"[?25l[?12l[?25h[15d[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25ho"[?25l[?12l[?25hm"[?25l[?12l[?25he"[?25l[?12l[?25hk"[?25l[?12l[?25ha"[?25l[?12l[?25hu"[?25l[?12l[?25hs"[?25l[?12l[?25he"[?25l[?12l[?25hr"[?25l[?12l[?25h[16d[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25hR"[?25l[?12l[?25he"[?25l[?12l[?25hd"[?25l[?12l[?25hB"[?25l[?12l[?25hi"[?25l[?12l[?25hg"[?25l[?12l[?25hB"[?25l[?12l[?25ho"[?25l[?12l[?25ha"[?25l[?12l[?25ht"[?25l[?12l[?25hS"[?25l[?12l[?25ht"[?25l[?12l[?25ha"[?25l[?12l[?25hr"[?25l[?12l[?25hl"[?25l[?12l[?25hi"[?25l[?12l[?25hg"[?25l[?12l[?25hh"[?25l[?12l[?25ht"[?25l[?12l[?25h5"[?25l[?12l[?25h3"[?25l[?12l[?25h$"[?25l[?12l[?25h[17;21H[?25l[?12l[?25h[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25h"[K[?25l[?12l[?25ho"[?25l[?12l[?25hm"[?25l[?12l[?25he"[?25l[?12l[?25hk"[?25l[?12l[?25ha"[?25l[?12l[?25hd"[?25l[?12l[?25hb"[?25l[38;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[38;76H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[16X[39;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[39;76H(B[0;7m^T(B[m Browse[K
+[37d(B[0;7mFile Name to Write: /var/www/html/omeka/db.ini                                                         [37;47H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [102G(B[m[37;43H(B[0;7m[ Wrote 19 lines ](B[m[38;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[17;20H[?25l
+[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka[27mls -ld /var/www/html/omeka
+[?2004l
+drwxr-sr-x 8 root www-data 4096 Oct 10 21:28 [0m[01;34m/var/www/html/omeka[0m
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka/files[27mls -ld /var/www/html/omeka/files
-[?2004ldrwxr-sr-x 7 root www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka/files[0m
-[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo chown -R www-data:www-data /var/www/html/omeka/files[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown -R www-data:www-data /var/www/html/omeka/files
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo chmod -R 775 /var/www/html/omeka/files[27msudo chmod -R 775 /var/www/html/omeka/files
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka/files[27mls -ld /var/www/html/omeka/files
-[?2004ldrwxrwsr-x 7 www-data www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka/files[0m
+[?2004l
+drwxr-sr-x 7 root www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka/files[0m
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo chown -R www-data:www-data /var/www/html/omeka/files[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown -R www-data:www-data /var/www/html/omeka/files
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo chmod -R 775 /var/www/html/omeka/files[27msudo chmod -R 775 /var/www/html/omeka/files
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mls -ld /var/www/html/omeka/files[27mls -ld /var/www/html/omeka/files
+[?2004l
+drwxrwsr-x 7 www-data www-data 4096 Sep 25 14:15 [0m[01;34m/var/www/html/omeka/files[0m
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo systemctl restart apache2[27msudo systemctl restart apache2
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo systemctl status apache2[27msudo systemctl status apache2
-[?2004l[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo systemctl status apache2[27msudo systemctl status apache2
+[?2004l
+[?1h=
+[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
      Loaded: loaded (]8;;file://fall2026-7301/usr/lib/systemd/system/apache2.service/usr/lib/systemd/system/apache2.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
      Active: [0;1;32mactive (running)[0m since Sat 2026-10-10 21:29:17 UTC; 5s ago[m
        Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;[m
@@ -5853,10 +6346,13 @@ Saving to: ‘omeka-3.2.2.zip’
 [m
 Oct 10 21:29:17 fall2026-7301 systemd[1]: Starting apache2.service - The Apache HTTP Server...[m
 Oct 10 21:29:17 fall2026-7301 systemd[1]: Started apache2.service - The Apache HTTP Server.[m
-[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ q
-[?2004lbash: q: command not found
+
+[K[?1l>[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ q
+[?2004l
+bash: q: command not found
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo tail -n 50 /var/log/apache2/error.log[27msudo tail -n 50 /var/log/apache2/error.log
-[?2004l[Sat Oct 10 19:14:39.001504 2026] [php:error] [pid 695840] [client 24.241.68.7:63942] PHP Parse error:  syntax error, unexpected single-quoted string "s Library", expecting ")" in /var/www/html/library/wp-config.php on line 23
+[?2004l
+[Sat Oct 10 19:14:39.001504 2026] [php:error] [pid 695840] [client 24.241.68.7:63942] PHP Parse error:  syntax error, unexpected single-quoted string "s Library", expecting ")" in /var/www/html/library/wp-config.php on line 23
 [Sat Oct 10 19:15:19.540543 2026] [php:error] [pid 695836] [client 24.241.68.7:63950] PHP Parse error:  syntax error, unexpected single-quoted string "s Library", expecting ")" in /var/www/html/library/wp-config.php on line 23
 [Sat Oct 10 19:15:21.634183 2026] [php:error] [pid 695837] [client 24.241.68.7:63954] PHP Parse error:  syntax error, unexpected single-quoted string "s Library", expecting ")" in /var/www/html/library/wp-config.php on line 23
 [Sat Oct 10 19:15:22.237723 2026] [php:error] [pid 695838] [client 24.241.68.7:63955] PHP Parse error:  syntax error, unexpected single-quoted string "s Library", expecting ")" in /var/www/html/library/wp-config.php on line 23
@@ -5907,7 +6403,8 @@ sh: 1: /usr/sbin/sendmail: not found
 [Sat Oct 10 21:29:18.243280 2026] [core:notice] [pid 720618] AH00094: Command line: '/usr/sbin/apache2'
 [Sat Oct 10 21:30:05.413416 2026] [php:notice] [pid 720620] [client 24.241.68.7:65275] Omeka fatal error: Access denied for user 'omekauser'@'localhost' (using password: YES).\n\nConfirm that the information in your db.ini file is correct.
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ sudo mysql
-[?2004lWelcome to the MySQL monitor.  Commands end with ; or \g.
+[?2004l
+Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 234
 Server version: 8.0.46-0ubuntu0.24.04.4 (Ubuntu)
 
@@ -5921,14 +6418,101 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> ALTER USER 'omekauser'@'localhost' IDENTIFIED BY 'YOUR_NEW_PASSWORD';
 ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
-mysql> ALTER USER 'omekauser'@'localhost' IDENTIFIED BY 'YOUR_NEW_PASSWORD';[73GD';[K[72GD';[K[71GD';[K[70GD';[K[69GD';[K[68GD';[K[67GD';[K[66GD';[K[65GD';[K[64GD';[K[63GD';[K[62GD';[K[61GD';[K[60GD';[K[59GD';[K[58GD';[KD[58G';[K[58G;[K[56G';[K[55G';[K[54G';[K[53G';[K[52G';[K[51G';[K[50G';[K[49G';[K[48G';[K[47G';[K[46G';[K[46GN';[47GT';[48GI';[49GF';[50GI';[51GE';[52GD';[53G ';[54GB';[55GY';[56G ';[57G;';[57G';[K[58G';[58GR';[59Ge';[60Gd';[61GB';[62Gi';[63Gg';[64GB';[65Go';[66Ga';[67Gt';[68GS';[69Gt';[70Ga';[71Gr';[72Gl';[73Gi';[74Gg';[75Gh';[76Gt';[77G5';[78G3';[79G$';
+mysql> ALTER USER 'omekauser'@'localhost' IDENTIFIED BY 'YOUR_NEW_PASSWORD';
+[73GD';[K
+[72GD';[K
+[71GD';[K
+[70GD';[K
+[69GD';[K
+[68GD';[K
+[67GD';[K
+[66GD';[K
+[65GD';[K
+[64GD';[K
+[63GD';[K
+[62GD';[K
+[61GD';[K
+[60GD';[K
+[59GD';[K
+[58GD';[KD
+[58G';[K
+[58G;[K
+[56G';[K
+[55G';[K
+[54G';[K
+[53G';[K
+[52G';[K
+[51G';[K
+[50G';[K
+[49G';[K
+[48G';[K
+[47G';[K
+[46G';[K
+[46GN';
+[47GT';
+[48GI';
+[49GF';
+[50GI';
+[51GE';
+[52GD';
+[53G ';
+[54GB';
+[55GY';
+[56G ';
+[57G;';
+[57G';[K
+[58G';
+[58GR';
+[59Ge';
+[60Gd';
+[61GB';
+[62Gi';
+[63Gg';
+[64GB';
+[65Go';
+[66Ga';
+[67Gt';
+[68GS';
+[69Gt';
+[70Ga';
+[71Gr';
+[72Gl';
+[73Gi';
+[74Gg';
+[75Gh';
+[76Gt';
+[77G5';
+[78G3';
+[79G$';
 Query OK, 0 rows affected (0.02 sec)
 
 mysql> EXIT;
 Bye
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo nano /var/www/html/omeka/db.ini[27msudo nano /var/www/html/omeka/db.ini
-[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;44H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /var/www/html/omeka/db.ini                                    [1;102H(B[m[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[3d; Database Configuration File ;[4d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[5d;[6d; Omeka requires MySQL 5 or newer.[7d;[8d; To configure your database, replace the X's with your specific[9d; settings. If you're unsure about your database information, ask[10d; your server administrator, or consult the documentation at[11d; <[94mhttp://omeka.org/codex/Database_Configuration_File[39m(B[m>.[13d(B[0;1m[32m[database][14d[39m(B[mhost     = "localhost"[15dusername = "omekauser"[16dpassword = "RedBigBoatStarlight53$"[17ddbname   = "omekadb"[18dprefix   = "omeka_"[19dcharset  = "utf8"[20d;port     = ""[2d[?12l[?25h[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo mysql[27msudo mysql
-[?2004lWelcome to the MySQL monitor.  Commands end with ; or \g.
+[?2004l
+[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;44H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /var/www/html/omeka/db.ini                                    [1;102H(B[m
+[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo
+[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo
+[2d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[3d; Database Configuration File ;
+[4d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[5d;[6d; Omeka requires MySQL 5 or newer.
+[7d;[8d; To configure your database, replace the X's with your specific
+[9d; settings. If you're unsure about your database information, ask
+[10d; your server administrator, or consult the documentation at
+[11d; <[94mhttp://omeka.org/codex/Database_Configuration_File[39m(B[m>.
+[13d(B[0;1m[32m[database]
+[14d[39m(B[mhost     = "localhost"
+[15dusername = "omekauser"
+[16dpassword = "[REDACTED]"
+[17ddbname   = "omekadb"
+[18dprefix   = "omeka_"
+[19dcharset  = "utf8"
+[20d;port     = ""
+[2d[?12l[?25h[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo mysql[27msudo mysql
+[?2004l
+Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 236
 Server version: 8.0.46-0ubuntu0.24.04.4 (Ubuntu)
 
@@ -5946,7 +6530,8 @@ Query OK, 0 rows affected (0.01 sec)
 mysql> EXIT;
 Bye
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mmysql -u omekauser -p omekadb[27mmysql -u omekauser -p omekadb
-[?2004lEnter password: 
+[?2004l
+Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 237
 Server version: 8.0.46-0ubuntu0.24.04.4 (Ubuntu)
@@ -5962,212 +6547,381 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 [omekadb]> EXIT;
 Bye
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo a2enmod rewrite[27msudo a2enmod rewrite
-[?2004lModule rewrite already enabled
+[?2004l
+Module rewrite already enabled
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo nano /etc/apache2/apache2.conf[27msudo nano /etc/apache2/apache2.conf
-[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;43H(B[0;7m[ Read 231 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /etc/apache2/apache2.conf                                     [1;102H(B[m[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d[36m# This is the main Apache server configuration file.  It contains the[3d# configuration directives that give the server its instructions.[4d# See http://httpd.apache.org/docs/2.4/ for detailed information about[5d# the directives and /usr/share/doc/apache2/README.Debian about Debian specific[6d# hints.[7d#[8d#[9d# Summary of how the Apache 2 configuration works in Debian:[10d# The Apache 2 web server configuration in Debian is quite different to[11d# upstream's suggested way to configure the web server. This is because Debian's[12d# default Apache2 installation attempts to make adding and removing modules,[13d# virtual hosts, and extra configuration directives as flexible as possible, in[14d# order to make automating the changes and administering the server as easy as[15d# possible.[17d# It is split into several files forming the configuration hierarchy outlined[18d# below, all located in the /etc/apache2/ directory:[19d#[20d#[38;5;208m       [36m/etc/apache2/[21d#[38;5;208m       [36m|-- apache2.conf[22d#[38;5;208m       [36m|[38;5;208m       [36m`--  ports.conf[23d#[38;5;208m       [36m|-- mods-enabled[24d#[38;5;208m       [36m|[38;5;208m       [36m|-- *.load[25d#[38;5;208m       [36m|[38;5;208m       [36m`-- *.conf[26d#[38;5;208m       [36m|-- conf-enabled[27d#[38;5;208m       [36m|[38;5;208m       [36m`-- *.conf[28d# [38;5;208m      [36m`-- sites-enabled[29d#[38;5;208m       [36m [38;5;208m       [36m`-- *.conf[30d#[31d#[32d# * apache2.conf is the main configuration file (this file). It puts the pieces[33d#   together by including all remaining configuration files when starting up the[34d#   web server.[35d#[36d# * ports.conf is always included from the main configuration file. It is[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[37d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   supposed to determine listening ports for incoming connections which can be[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   customized anytime.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[?2004l
+[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;45H(B[0;7m[ Reading... ](B[m[37;43H(B[0;7m[ Read 231 lines ](B[m[H(B[0;7m  GNU nano 7.2                           /etc/apache2/apache2.conf                                     [1;102H(B[m
+[38d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[38;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo
+[39d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo
+[2d[36m# This is the main Apache server configuration file.  It contains the
+[3d# configuration directives that give the server its instructions.
+[4d# See http://httpd.apache.org/docs/2.4/ for detailed information about
+[5d# the directives and /usr/share/doc/apache2/README.Debian about Debian specific
+[6d# hints.
+[7d#[8d#[9d# Summary of how the Apache 2 configuration works in Debian:
+[10d# The Apache 2 web server configuration in Debian is quite different to
+[11d# upstream's suggested way to configure the web server. This is because Debian's
+[12d# default Apache2 installation attempts to make adding and removing modules,
+[13d# virtual hosts, and extra configuration directives as flexible as possible, in
+[14d# order to make automating the changes and administering the server as easy as
+[15d# possible.
+[17d# It is split into several files forming the configuration hierarchy outlined
+[18d# below, all located in the /etc/apache2/ directory:
+[19d#[20d#[38;5;208m       [36m/etc/apache2/
+[21d#[38;5;208m       [36m|-- apache2.conf
+[22d#[38;5;208m       [36m|[38;5;208m       [36m`--  ports.conf
+[23d#[38;5;208m       [36m|-- mods-enabled
+[24d#[38;5;208m       [36m|[38;5;208m       [36m|-- *.load
+[25d#[38;5;208m       [36m|[38;5;208m       [36m`-- *.conf
+[26d#[38;5;208m       [36m|-- conf-enabled
+[27d#[38;5;208m       [36m|[38;5;208m       [36m`-- *.conf
+[28d# [38;5;208m      [36m`-- sites-enabled
+[29d#[38;5;208m       [36m [38;5;208m       [36m`-- *.conf
+[30d#[31d#[32d# * apache2.conf is the main configuration file (this file). It puts the pieces
+[33d#   together by including all remaining configuration files when starting up the
+[34d#   web server.
+[35d#[36d# * ports.conf is always included from the main configuration file. It is
+[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[37d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   supposed to determine listening ports for incoming connections which can be
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   customized anytime.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# * Configuration files in the mods-enabled/, conf-enabled/ and sites-enabled/[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   directories contain particular configuration snippets which manage modules,[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   global configuration fragments, or virtual host configurations,[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   respectively.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# * Configuration files in the mods-enabled/, conf-enabled/ and sites-enabled/
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   directories contain particular configuration snippets which manage modules,
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   global configuration fragments, or virtual host configurations,
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   respectively.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   They are activated by symlinking available configuration files from their[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   respective *-available/ counterparts. These should be managed by using our[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   helpers a2enmod/a2dismod, a2ensite/a2dissite and a2enconf/a2disconf. See[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   their respective man pages for detailed information.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   They are activated by symlinking available configuration files from their
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   respective *-available/ counterparts. These should be managed by using our
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   helpers a2enmod/a2dismod, a2ensite/a2dissite and a2enconf/a2disconf. See
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   their respective man pages for detailed information.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# * The binary is called apache2. Due to the use of environment variables, in[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   the default configuration, apache2 needs to be started/stopped with[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   /etc/init.d/apache2 or apache2ctl. Calling /usr/bin/apache2 directly will not[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#   work with the default configuration.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# * The binary is called apache2. Due to the use of environment variables, in
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   the default configuration, apache2 needs to be started/stopped with
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   /etc/init.d/apache2 or apache2ctl. Calling /usr/bin/apache2 directly will not
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#   work with the default configuration.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Global configuration[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Global configuration
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# ServerRoot: The top of the directory tree under which the server's[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# configuration, error, and log files are kept.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# ServerRoot: The top of the directory tree under which the server's
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# configuration, error, and log files are kept.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# NOTE!  If you intend to place this on an NFS (or otherwise network)[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# mounted filesystem then please read the Mutex documentation (available[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# at <URL:http://httpd.apache.org/docs/2.4/mod/core.html#mutex>);[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# you will save yourself a lot of trouble.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# NOTE!  If you intend to place this on an NFS (or otherwise network)
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# mounted filesystem then please read the Mutex documentation (available
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# at <URL:http://httpd.apache.org/docs/2.4/mod/core.html#mutex>);
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# you will save yourself a lot of trouble.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Do NOT add a slash at the end of the directory path.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Do NOT add a slash at the end of the directory path.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#ServerRoot "/etc/apache2"[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The accept serialization lock file MUST BE STORED ON A LOCAL DISK.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#Mutex file:${APACHE_LOCK_DIR} default[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The directory where shm and other runtime files will be stored.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HDefaultRuntimeDir ${APACHE_RUN_DIR}[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#ServerRoot "/etc/apache2"
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# PidFile: The file in which the server should record its process[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# identification number when it starts.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# This needs to be set in /etc/apache2/envvars[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The accept serialization lock file MUST BE STORED ON A LOCAL DISK.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HPidFile ${APACHE_PID_FILE}[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Timeout: The number of seconds before receives and sends time out.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HTimeout 300[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#Mutex file:${APACHE_LOCK_DIR} default
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# KeepAlive: Whether or not to allow persistent connections (more than[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# one request per connection). Set to "Off" to deactivate.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The directory where shm and other runtime files will be stored.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HKeepAlive On[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# MaxKeepAliveRequests: The maximum number of requests to allow[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# during a persistent connection. Set to 0 to allow an unlimited amount.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# We recommend you leave this number high, for maximum performance.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HMaxKeepAliveRequests 100[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HDefaultRuntimeDir ${APACHE_RUN_DIR}
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# KeepAliveTimeout: Number of seconds to wait for the next request from the[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# same client on the same connection.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# PidFile: The file in which the server should record its process
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# identification number when it starts.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# This needs to be set in /etc/apache2/envvars
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HKeepAliveTimeout 5[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# These need to be set in /etc/apache2/envvars[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HUser ${APACHE_RUN_USER}[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HGroup ${APACHE_RUN_GROUP}[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# HostnameLookups: Log the names of clients or just their IP addresses[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# e.g., www.apache.org (on) or 204.62.129.132 (off).[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The default is off because it'd be overall better for the net if people[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# had to knowingly turn this feature on, since enabling it means that[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# each client request will result in AT LEAST one lookup request to the[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# nameserver.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HHostnameLookups Off[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# ErrorLog: The location of the error log file.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# If you do not specify an ErrorLog directive within a <VirtualHost>[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# container, error messages relating to that virtual host will be[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# logged here.  If you *do* define an error logfile for a <VirtualHost>[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# container, that host's errors will be logged there and not here.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HErrorLog ${APACHE_LOG_DIR}/error.log[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HPidFile ${APACHE_PID_FILE}
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# LogLevel: Control the severity of messages logged to the error_log.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Available values: trace8, ..., trace1, debug, info, notice, warn,[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# error, crit, alert, emerg.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# It is also possible to configure the log level for particular modules, e.g.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# "LogLevel info ssl:warn"[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Timeout: The number of seconds before receives and sends time out.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogLevel warn[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Include module configuration:[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HIncludeOptional mods-enabled/*.load[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HIncludeOptional mods-enabled/*.conf[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Include list of ports to listen on[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HInclude ports.conf[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Sets the default security model of the Apache2 HTTPD server. It does[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# not allow access to the root filesystem outside of /usr/share and /var/www.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The former is used by web applications packaged in Debian,[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# the latter may be used for local directories served by the web server. If[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# your system is serving content from a sub-directory in /srv you must allow[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# access here, or in any related virtual host.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H<Directory />[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mOptions FollowSymLinks[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all denied[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H</Directory>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H<Directory /usr/share>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all granted[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H</Directory>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H<Directory /var/www/>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mOptions Indexes FollowSymLinks[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all granted[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H</Directory>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#<Directory /srv/>[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[38;5;208m       [36mOptions Indexes FollowSymLinks[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[38;5;208m       [36mAllowOverride None[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[38;5;208m       [36mRequire all granted[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#</Directory>[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# AccessFileName: The name of the file to look for in each directory[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# for additional configuration directives.  See also the AllowOverride[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# directive.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HAccessFileName .htaccess[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HTimeout 300
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The following lines prevent .htaccess and .htpasswd files from being[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# viewed by Web clients.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# KeepAlive: Whether or not to allow persistent connections (more than
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# one request per connection). Set to "Off" to deactivate.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H<FilesMatch "^\.ht">[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all denied[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H</FilesMatch>[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HKeepAlive On
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# MaxKeepAliveRequests: The maximum number of requests to allow
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# during a persistent connection. Set to 0 to allow an unlimited amount.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# We recommend you leave this number high, for maximum performance.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HMaxKeepAliveRequests 100
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# KeepAliveTimeout: Number of seconds to wait for the next request from the
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# same client on the same connection.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HKeepAliveTimeout 5
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# These need to be set in /etc/apache2/envvars
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HUser ${APACHE_RUN_USER}
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HGroup ${APACHE_RUN_GROUP}
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# HostnameLookups: Log the names of clients or just their IP addresses
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# e.g., www.apache.org (on) or 204.62.129.132 (off).
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The default is off because it'd be overall better for the net if people
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# had to knowingly turn this feature on, since enabling it means that
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# each client request will result in AT LEAST one lookup request to the
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# nameserver.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HHostnameLookups Off
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# ErrorLog: The location of the error log file.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# If you do not specify an ErrorLog directive within a <VirtualHost>
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# container, error messages relating to that virtual host will be
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# logged here.  If you *do* define an error logfile for a <VirtualHost>
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# container, that host's errors will be logged there and not here.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HErrorLog ${APACHE_LOG_DIR}/error.log
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# LogLevel: Control the severity of messages logged to the error_log.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Available values: trace8, ..., trace1, debug, info, notice, warn,
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# error, crit, alert, emerg.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# It is also possible to configure the log level for particular modules, e.g.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# "LogLevel info ssl:warn"
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogLevel warn
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Include module configuration:
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HIncludeOptional mods-enabled/*.load
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HIncludeOptional mods-enabled/*.conf
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Include list of ports to listen on
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HInclude ports.conf
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Sets the default security model of the Apache2 HTTPD server. It does
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# not allow access to the root filesystem outside of /usr/share and /var/www.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The former is used by web applications packaged in Debian,
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# the latter may be used for local directories served by the web server. If
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# your system is serving content from a sub-directory in /srv you must allow
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# access here, or in any related virtual host.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H<Directory />
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mOptions FollowSymLinks
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all denied
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H</Directory>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H<Directory /usr/share>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all granted
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H</Directory>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H<Directory /var/www/>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mOptions Indexes FollowSymLinks
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mAllowOverride None
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all granted
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H</Directory>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#<Directory /srv/>
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[38;5;208m       [36mOptions Indexes FollowSymLinks
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[38;5;208m       [36mAllowOverride None
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[38;5;208m       [36mRequire all granted
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#</Directory>
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# AccessFileName: The name of the file to look for in each directory
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# for additional configuration directives.  See also the AllowOverride
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# directive.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HAccessFileName .htaccess
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The following lines prevent .htaccess and .htpasswd files from being
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# viewed by Web clients.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H<FilesMatch "^\.ht">
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;8H[38;5;208m[1K [39m(B[mRequire all denied
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H</FilesMatch>
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# The following directives define some format nicknames for use with[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# a CustomLog directive.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# The following directives define some format nicknames for use with
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# a CustomLog directive.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# These deviate from the Common Log Format definitions in that they use %O[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# (the actual bytes sent including headers) instead of %b (the size of the[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# requested file), because the latter makes it impossible to detect partial[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# requests.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# These deviate from the Common Log Format definitions in that they use %O
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# (the actual bytes sent including headers) instead of %b (the size of the
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# requested file), because the latter makes it impossible to detect partial
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# requests.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Note that the use of %{X-Forwarded-For}i instead of %h is not recommended.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Use mod_remoteip instead.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Note that the use of %{X-Forwarded-For}i instead of %h is not recommended.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Use mod_remoteip instead.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogFormat "%v:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" vhost_combined[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogFormat "%h %l %u %t \"%r\" %>s %O" common[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogFormat "%{Referer}i -> %U" referer[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HLogFormat "%{User-agent}i" agent[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogFormat "%v:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" vhost_combined
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogFormat "%h %l %u %t \"%r\" %>s %O" common
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogFormat "%{Referer}i -> %U" referer
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HLogFormat "%{User-agent}i" agent
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Include of directories ignores editors' and dpkg's backup files,[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# see README.Debian for details.[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Include of directories ignores editors' and dpkg's backup files,
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# see README.Debian for details.
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Include generic snippets of statements[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HIncludeOptional conf-enabled/*.conf[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Include generic snippets of statements
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HIncludeOptional conf-enabled/*.conf
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H[36m# Include the virtual host configurations:[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1HIncludeOptional sites-enabled/*.conf[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H[36m# Include the virtual host configurations:
+[39m(B[m[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1HIncludeOptional sites-enabled/*.conf
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H<Directory /var/www/html/cataloging/>[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;3HOptions Indexes FollowSymLinks[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;3HAllowOverride AuthConfig[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;3HRequire all granted[?25l[?12l[?25h7[2;37r8[37d
-[1;39r[36;1H</Directory>[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H<Directory /var/www/html/cataloging/>
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;3HOptions Indexes FollowSymLinks
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;3HAllowOverride AuthConfig
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;3HRequire all granted
+[?25l[?12l[?25h7[2;37r8[37d
+[1;39r[36;1H</Directory>
+[?25l[?12l[?25h7[2;37r8[37d
 [1;39r[36;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;68H(B[0;7m*[102G(B[m[2;37r[37;1H
-[1;39r[36;1H[?12l[?25h[?25l7[2;37r8[37d[4S[1;39r[32;1H<Directory /var/www/html/omeka>[33;5HOptions Indexes FollowSymLinks[34;5HAllowOverride All[35;5HRequire all granted[36d</Directory>[?12l[?25h[?25l[38d             (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[38;76H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[16X[39;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[39;76H(B[0;7m^T(B[m Browse[K[37d(B[0;7mFile Name to Write: /etc/apache2/apache2.conf                                                          [37;46H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;68H(B[0;7m [102G(B[m[37;43H(B[0;7m[ Wrote 237 lines ](B[m[38;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[36;13H[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo apache2ctl configtest[27msudo apache2ctl configtest
-[?2004lSyntax OK
+[1;39r[36;1H[?12l[?25h[?25l7[2;37r8[37d[4S[1;39r[32;1H<Directory /var/www/html/omeka>[33;5HOptions Indexes FollowSymLinks[34;5HAllowOverride All[35;5HRequire all granted
+[36d</Directory>[?12l[?25h[?25l[38d             (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[38;76H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[16X[39;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[39;76H(B[0;7m^T(B[m Browse[K
+[37d(B[0;7mFile Name to Write: /etc/apache2/apache2.conf                                                          [37;46H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;68H(B[0;7m [102G(B[m[37;43H(B[0;7m[ Wrote 237 lines ](B[m[38;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[39;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[36;13H[?25l
+[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo apache2ctl configtest[27msudo apache2ctl configtest
+[?2004l
+Syntax OK
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7msudo systemctl restart apache2[27msudo systemctl restart apache2
-[?2004l[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mapache2ctl -M | grep rewrite[27mapache2ctl -M | grep rewrite
-[?2004l [01;31m[Krewrite[m[K_module (shared)
+[?2004l
+[?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ [7mapache2ctl -M | grep rewrite[27mapache2ctl -M | grep rewrite
+[?2004l
+ [01;31m[Krewrite[m[K_module (shared)
 [?2004h]0;mcfarlanek20@fall2026-7301: /var/www/html[01;32mmcfarlanek20@fall2026-7301[00m:[01;34m/var/www/html[00m$ exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2026-10-10 21:40:45+00:00 [COMMAND_EXIT_CODE="0"]
